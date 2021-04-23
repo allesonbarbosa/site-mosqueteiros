@@ -1,0 +1,52 @@
+/*Fonte da página*/
+
+body{
+    font-family: 'Russo One', sans-serif;
+}
+
+/*Css do cabeçalho*/
+
+header{
+    background-color:#323673;
+    padding: 20px 0;
+}
+.cabecalho{
+    width: 100%;
+    position:relative;
+    margin: 0 auto;
+}
+#logo-time{
+    width: 170px;
+    height: 170px;
+    display: inline-block; 
+}
+.titulo-cabecalho{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    font-size: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 350px;
+}
+nav{
+    position: absolute;
+    top: 150px;
+    right: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:orange;
+}

@@ -15,7 +15,7 @@ header{
     position:relative;
     margin: 0 auto;
 }
-#logo-time{
+#logo-time-header{
     width: 170px;
     height: 170px;
     display: inline-block; 
@@ -49,4 +49,51 @@ nav a{
 }
 nav a:hover{
     color:orange;
+}
+
+.redes-sociais{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin:0 20px 0 0;
+}
+h2{
+    color: white;
+    display: inline;
+    padding-right: 5px;
+}
+
+#logo-instagram{
+    width: 35px;
+    position: relative;
+    top: 10px;
+}
+
+footer{
+    background-color:#323673;
+    padding: 20px 0;
+}
+.rodape{
+    width: 940px;
+    position:relative;
+    margin: 0 auto;
+}
+.redes-sociais-rodape{
+    display: inline-block;
+    margin:20px 140px;
+}
+.menu-rodape{
+    display: inline-block;
+    margin:20px 40px;
+}
+.localizacao-rodape{
+    display: inline-block;
+    margin:20px 40px;
+}
+h3{
+    display: inline-block;
+}
+#logo-time-footer{
+    width: 170px;
+    height: 170px;
 }

@@ -30,24 +30,24 @@ header{
     left: 0;
     padding: 60px 350px;
 }
-nav{
+.nav-header{
     position: absolute;
     top: 150px;
     right: 20px;
 }
 
-nav li{
+.nav-header li{
     display: inline;
     margin: 0 0 0 20px;
 }
-nav a{
+.nav-header a{
     text-transform: uppercase;
     font-weight: bold;
     color: white;
     font-size: 20px;
     text-decoration: none;
 }
-nav a:hover{
+.nav-header a:hover{
     color:orange;
 }
 
@@ -68,32 +68,70 @@ h2{
     position: relative;
     top: 10px;
 }
+/*css do rodapé*/
 
 footer{
     background-color:#323673;
     padding: 20px 0;
+    width: auto;
+    height: 170px;
 }
 .rodape{
     width: 940px;
     position:relative;
     margin: 0 auto;
 }
-.redes-sociais-rodape{
+.titulo-rodape{
     display: inline-block;
-    margin:20px 140px;
+    color: white;;
 }
-.menu-rodape{
+.container-redes{
     display: inline-block;
-    margin:20px 40px;
+    position: absolute;
+    top:0;
+    left: 0;
 }
-.localizacao-rodape{
-    display: inline-block;
-    margin:20px 40px;
+#logo-instagram-footer{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 10px 0;
 }
-h3{
+.container-menu{
     display: inline-block;
+    position: absolute;
+    top:0;
+    left: 33.3%;
+}
+.nav-footer ul{
+    padding: 20px 0;
+}
+.nav-footer li{
+    padding: 5px 0;
+}
+.nav-footer a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.nav-footer a:hover{
+    color: orange;
+}
+.container-localizacao{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 66.6%;
+}
+h4{
+    padding: 25px 0;
+    color: #CCCCCC;
 }
 #logo-time-footer{
-    width: 170px;
-    height: 170px;
+    width: 90px;
+    height: 90px;
 }
+
+

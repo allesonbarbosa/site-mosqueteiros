@@ -193,4 +193,59 @@ h4{
     text-align: center;
 }
 
+/*Css da página do elenco*/
 
+.container-elenco{
+    width: 960px;
+    height: calc(4*280px);
+    margin: 20px auto;
+    position: relative;
+}
+
+.container-jogador1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 280px;
+    padding: 5px 10px;
+}
+.container-jogador2{
+    position: absolute;
+    top: 0;
+    left: 33.3%;
+    width: 30%;
+    height: 280px;
+    padding: 5px 10px;
+
+}
+.container-jogador3{
+    position: absolute;
+    top: 0;
+    left: 66.6%;
+    width: 30%;
+    height: 280px;
+    padding: 5px 10px;
+}
+.container-foto{
+    width: 100%;
+    height: 220px;
+}
+.foto-jogador{
+    width: 100%;
+}
+.nome-jogador{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.nome-jogador h2{
+    color: #323673;
+    display: inline;
+}
+.nome-jogador h3{
+    color: orange;
+    display: inline;
+}

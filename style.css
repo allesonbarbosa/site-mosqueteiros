@@ -197,7 +197,7 @@ h4{
 
 .container-elenco{
     width: 960px;
-    height: calc(4*280px);
+    height: calc(4*290px);
     margin: 20px auto;
     position: relative;
 }
@@ -226,6 +226,65 @@ h4{
     width: 30%;
     height: 280px;
     padding: 5px 10px;
+}
+.container-jogador4{
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 30%;
+    height: 280px;
+    padding: 5px 10px;
+}
+.container-jogador5{
+    position: absolute;
+    top: 280px;
+    left: 33.3%;
+    width: 30%;
+    height: 280px;
+    padding: 5px 10px;
+}
+.container-jogador6{
+    position: absolute;
+    top: 280px;
+    left: 66.6%;
+    width: 30%;
+    height: 280px;
+    padding: 5px 10px;
+}
+.container-jogador7{
+    position:absolute;
+    top: 560px;
+    left: 0;
+    width: 30%;
+    height: 280px;
+}
+.container-jogador8{
+    position:absolute;
+    top: 560px;
+    left: 33.3%;
+    width: 30%;
+    height: 280px;
+}
+.container-jogador9{
+    position:absolute;
+    top: 560px;
+    left: 66.6%;
+    width: 30%;
+    height: 280px;
+}
+.container-jogador10{
+    position: absolute;
+    top: 840px;
+    left: 0;
+    width: 30%;
+    height: 280px;
+}
+.container-jogador11{
+    position: absolute;
+    top: 840px;
+    left: 33.3%;
+    width: 30%;
+    height: 280px;
 }
 .container-foto{
     width: 100%;

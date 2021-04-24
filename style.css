@@ -9,33 +9,38 @@ body{
 header{
     background-color:#323673;
     padding: 20px 0;
+    height: 180px;
 }
 .cabecalho{
     width: 100%;
     position:relative;
     margin: 0 auto;
 }
+.container-logo{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+}
 #logo-time-header{
     width: 170px;
     height: 170px;
-    display: inline-block; 
+    display: inline-block;
+    position: absolute; 
 }
-.titulo-cabecalho{
-    text-align: center;
+.container-titulo{
     color: white;
     display: inline-block;
     font-size: 45px;
     position: absolute;
     top: 0;
     left: 0;
-    padding: 60px 350px;
+    transform: translate(60%,90%);
 }
 .nav-header{
     position: absolute;
-    top: 150px;
+    top: 180px;
     right: 20px;
 }
-
 .nav-header li{
     display: inline;
     margin: 0 0 0 20px;
@@ -50,8 +55,7 @@ header{
 .nav-header a:hover{
     color:orange;
 }
-
-.redes-sociais{
+.container-redes-header{
     position: absolute;
     top:0;
     right: 0;
@@ -74,7 +78,7 @@ footer{
     background-color:#323673;
     padding: 20px 0;
     width: auto;
-    height: 170px;
+    height: 250px;
 }
 .rodape{
     width: 940px;
@@ -83,20 +87,23 @@ footer{
 }
 .titulo-rodape{
     display: inline-block;
-    color: white;;
+    color: white;
+    font-size: 20px;
 }
-.container-redes{
+.container-redes-footer{
     display: inline-block;
     position: absolute;
     top:0;
     left: 0;
+    width: 33.33%;
+    text-align: center;
 }
 #logo-instagram-footer{
     width: 30px;
     height: 30px;
     position: absolute;
     top: 20px;
-    left: 0;
+    left: 90px;
     padding: 10px 0;
 }
 .container-menu{
@@ -104,6 +111,8 @@ footer{
     position: absolute;
     top:0;
     left: 33.3%;
+    width: 33.33%;
+    text-align: center;
 }
 .nav-footer ul{
     padding: 20px 0;
@@ -114,6 +123,7 @@ footer{
 .nav-footer a{
     text-decoration: none;
     color: #cccccc;
+    font-size: 18px;
 }
 
 .nav-footer a:hover{
@@ -124,14 +134,24 @@ footer{
     position: absolute;
     top:0;
     left: 66.6%;
+    width: 33.33%;
+    text-align: center;
 }
 h4{
     padding: 25px 0;
     color: #CCCCCC;
+    font-size: 18px;
 }
 #logo-time-footer{
     width: 90px;
     height: 90px;
+}
+.container-copyright{
+    width: 940px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    text-align: center;
 }
 
 

@@ -4,6 +4,45 @@ body{
     font-family: 'Russo One', sans-serif;
 }
 
+/*Css do main*/
+
+.container-principal{
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.container-principal h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container-principal p{
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+#foto-time{
+    text-align: center;
+    width: 940px;
+    margin: 20px 0;
+}
+.container-uniforme{
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 940px;
+}
+.container-uniforme h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#uniforme-time{
+    text-align: center;
+    width: 940px;
+    margin: 20px 0;
+}
+
 /*Css do cabeçalho*/
 
 header{

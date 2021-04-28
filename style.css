@@ -308,3 +308,98 @@ h4{
     color: orange;
     display: inline;
 }
+
+/*Css da página de agenda de jogos*/
+
+.conteudo-jogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-jogos{
+    margin: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.main-jogos{
+    width: 90%;
+    height: 100px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.container-campeonato{
+    width: 30%;
+    height: 100px;
+    background: #DDDDDD;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.container-campeonato h2{
+    color: black;
+    padding-top: 7px;
+    font-size: 16px;
+}
+.container-time-local{
+    width: 30%;
+    height: 100px;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.container-time-local img{
+    width: 23%;
+    margin-left: 10px;   
+}
+.container-time-local h2{
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;   
+}
+.container-placar{
+    width: 10%;
+    height: 100px;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;    
+}
+.container-placar h2{
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.container-time-visitante{
+    width: 30%;
+    height: 100px;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.container-time-visitante img{
+    width: 23%;
+    margin-left: 10px;   
+}
+.container-time-visitante h2{
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+}
